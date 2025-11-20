@@ -1,12 +1,12 @@
 # Chess Studio
 
-Chess Studio 是一个以国际围棋为核心、集对弈、研讨、复盘与学习于一体的智能 Agent。
+Chess Studio 是一个以国际象棋为核心、集对弈、研讨、复盘与学习于一体的智能 Agent。
 项目在 Qt/C++ 图形栈上演进而来，兼容图形界面、命令行以及可复用的库组件，帮助俱乐部、
-教学工作坊以及线上社区搭建面向围棋的数字工作台。
+教学工作坊以及线上社区搭建面向国际象棋的数字工作台。
 
 ## Why Chess Studio?
 
-- 统一的 Agent 身份：一个入口完成围棋对弈、讲解、检索与分享
+- 统一的 Agent 身份：一个入口完成国际象棋对弈、讲解、检索与分享
 - 友好的桌面级 GUI，适合新手入门也支持进阶战术分析
 - 扩展性强的 C++/Qt 架构，方便继续集成更多引擎或学习工具
 
@@ -39,10 +39,10 @@ cmake --build . --target gui
 
 ### 启动 Agent
 
-- 图形界面：运行 `cutechess` 即可进入 Chess Studio 体验
-- 命令行：`cutechess-cli` 适用于批量对局、引擎测试与脚本化复盘
+- 图形界面：运行 `./build/cutechess` 即可进入 Chess Studio 体验
+- 命令行：`./build/cutechess-cli` 适用于批量对局、引擎测试与脚本化复盘
 
-在“New Game”对话框切换任一方为 CPU 时会自动展示 AI Difficulty 面板，可直接在
+在"New Game"对话框切换任一方为 CPU 时会自动展示 AI Difficulty 面板，可直接在
 五个预设难度之间切换。悔棋、复盘入口位于主工具栏与对局菜单中。
 
 ## Packaging Chess Studio 1.0
